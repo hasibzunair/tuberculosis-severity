@@ -8,14 +8,19 @@ import cv2
 Fancy program which shows the CT scan slice by slice
 '''
 
-# the CT scan
-image_number = "new"
-img_3d = np.load("{}.npy".format(image_number))
+# the CT scan from TB folder
+image_number = "1_rs"
+
+# /home/hasib/imageclef
+# /home/hasib/imageclef/TB/training/High/
+
+img_3d = np.load("/home/hasib/imageclef/TB/training_96/High/{}.npy".format(image_number))
 print(img_3d.shape)
 
 counter = 0
 window = np.array((1,2))
 
+# p and l to control slices
 while True:
     if counter >= img_3d.shape[-1]:
         break
@@ -27,7 +32,7 @@ while True:
         if k == 112:
             print("forward")
             counter+=1
-            # savea images
+            # save images
             #cv2.imwrite("{}.jpg".format(counter), window)
             print(counter)
             
