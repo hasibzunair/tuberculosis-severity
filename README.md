@@ -3,7 +3,7 @@
 This repository contains the codes and scripts used in ImageCLEF Tuberculosis - Severity Scoring 2019 challenge. The challenge was dedicated to the analysis of 3D Computed Tomography (CT) image data of tuberculosis (TB) patients.
 
 ### Challenge description
-This task is aimed at assessing TB severity score. The Severity score is a cumulative score of severity of TB case assigned by a medical doctor. Originally, the score varied from 1 (“critical/very bad”) to 5 (“very good”). The goal of this subtask is to assess the severity based on the CT image and some additional meta-data, including disability, relapse, comorbidity, bacillary and smoking among others.
+This task is aimed at assessing TB severity score. The Severity score is a cumulative score of severity of TB case assigned by a medical doctor. Originally, the score varied from 1 (“critical/very bad”) to 5 (“very good”). The goal of this subtask is to assess the severity based on the CT image. According to competition rules for final evaluation, the task was reduced to a binary classification problem.
 
 ### Data
 
