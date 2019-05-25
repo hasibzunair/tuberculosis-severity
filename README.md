@@ -15,3 +15,7 @@ In this edition, both subtasks (SVR and CTR) use the same dataset containing 335
 | Experiment        | Results           | Others  |
 | ------------- |:-------------:| -----:|
 | 16-layer 3D Convolutional Net | 61.1% AUC, 61.5% ACC | 128x128x32, 300 epochs,10th place solution |
+
+## Manuscript
+
+Working notes submitted in CEUR-WS. Currently under review.
