@@ -18,6 +18,6 @@ In this edition, both subtasks (SVR and CTR) use the same dataset containing 335
 
 ## Manuscript
 
-Working notes published in CEUR-WS. Paper can be found at [CLEF WORKING NOTES 2019](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2019/) under the section ImageCLEF - Multimedia Retrieval in CLEF.
+Paper published in CEUR-WS. Paper can be found at [CLEF Working Notes 2019](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2019/) under the section ImageCLEF - Multimedia Retrieval in CLEF.
 
 
