@@ -24,6 +24,11 @@ Tested code using:
 
 In this edition, both subtasks (SVR and CTR) use the same dataset containing 335 chest CT scans of TB patients along with a set of clinically relevant metadata. 218 patients are used for training and 117 for test. For all patient, provided are 3D CT images with slice size of 512*512 pixels and number of slices varying from about 50 to 400. All the CT images are stored in NIFTI file format with .nii.gz file extension (g-zipped .nii files). The dataset is provided by ImageCLEF and not shared here due to competition rules. More information at [URL](https://www.imageclef.org/2019/medical/tuberculosis). 
 
+Here is a single CT image displayed slice by slice.
+
+![](media/tub.gif)
+
+
 ### Our Results
 
 | Experiment        | Results           | Others  |
