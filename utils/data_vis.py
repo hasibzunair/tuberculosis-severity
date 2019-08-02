@@ -14,7 +14,7 @@ image_number = "1_rs"
 # /home/hasib/imageclef
 # /home/hasib/imageclef/TB/training/High/
 
-img_3d = np.load("/home/hasib/imageclef/TB/training_96/High/{}.npy".format(image_number))
+img_3d = np.load("/home/hasib/imageclef/TB/training_96/High/{}.npy".format(image_number)) * 255.0
 print(img_3d.shape)
 
 counter = 0
@@ -25,7 +25,7 @@ while True:
     if counter >= img_3d.shape[-1]:
         break
     window = img_3d[:,:,counter]
-    cv2.imshow("image 3d".format(counter), window)
+    cv2.imshow("image 3d".format(counter), window * 255.0)
     
     k = cv2.waitKey(1) & 0xff
     if k != 255: 
@@ -33,7 +33,7 @@ while True:
             print("forward")
             counter+=1
             # save images
-            #cv2.imwrite("{}.jpg".format(counter), window)
+            #cv2.imwrite("{}.jpg".format(counter), window )
             print(counter)
             
         if k == 108:
