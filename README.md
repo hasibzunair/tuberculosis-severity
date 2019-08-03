@@ -7,13 +7,14 @@ This task is aimed at assessing TB severity score. The Severity score is a cumul
 
 ### Usage
 
-The approaches shown in this work are implemented in Python 3.6 and Keras using Tensorflow as backend.
+This work is implemented in Python 3.6 and Keras using Tensorflow as backend.
 
 ### Dependencies
 
 Tested code using:
 
 *    Ubuntu 14.04
+*    Windows 8
 *    Python 3.6
 
 ### Directory Structure & Usage
