@@ -47,11 +47,10 @@ If this was helpful in your work, please consider citing.
   booktitle={CLEF (Working Notes)},
   year={2019}
 }
-
 ```
 
 Paper published in CEUR-WS. Paper can be found at [CLEF Working Notes 2019](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2019/) under the section ImageCLEF - Multimedia Retrieval in CLEF.
 
-### Extended work
+## Extended work
 
 Paper and code of an extension version can be found [here](https://github.com/hasibzunair/uniformizing-3D).
