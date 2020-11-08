@@ -41,13 +41,17 @@ Here is a single CT image displayed slice by slice.
 If this was helpful in your work, please consider citing.
 
 ```
-Zunair,  H.,  Rahman,  A.,  Mohammed,  N.:   Estimating  Severity  from  CT  Scans
-of  Tuberculosis  Patients  using  3D  Convolutional  Nets  and  Slice  Selection.   In:
-CLEF2019  Working  Notes.  Volume  2380  of  CEUR  Workshop  Proceedings.,
-Lugano, Switzerland, CEUR-WS.org
-<http://ceur-ws.org/Vol-2380>(September 9-12 2019) 
+@inproceedings{zunair2019estimating,
+  title={Estimating Severity from CT Scans of Tuberculosis Patients using 3D Convolutional Nets and Slice Selection.},
+  author={Zunair, Hasib and Rahman, Aimon and Mohammed, Nabeel},
+  booktitle={CLEF (Working Notes)},
+  year={2019}
+}
+
 ```
 
 Paper published in CEUR-WS. Paper can be found at [CLEF Working Notes 2019](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2019/) under the section ImageCLEF - Multimedia Retrieval in CLEF.
 
+### Extended work
 
+Paper and code of an extension version can be found [here](https://github.com/hasibzunair/uniformizing-3D).
